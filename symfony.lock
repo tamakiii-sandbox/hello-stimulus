@@ -139,6 +139,9 @@
     "symfony/string": {
         "version": "5.4.x-dev"
     },
+    "symfony/ux-chartjs": {
+        "version": "v1.3.0"
+    },
     "symfony/var-dumper": {
         "version": "5.4.x-dev"
     },
