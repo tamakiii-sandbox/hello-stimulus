@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{{ render_chart(chart) }}
+
+{# You can pass HTML attributes as a second argument to add them on the <canvas> tag #}
+{{ render_chart(chart, {'class': 'my-chart'}) }}
+
+<div data-controller="index"></div>
+{#
+<div data-controller="blog--post--author">
+    <div data-blog--post--author-target="author">...</div>
+</div>
+#}
+{% endblock %}
