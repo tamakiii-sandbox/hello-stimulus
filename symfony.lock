@@ -169,6 +169,25 @@
     "symfony/string": {
         "version": "5.4.x-dev"
     },
+    "symfony/translation-contracts": {
+        "version": "v2.4.0"
+    },
+    "symfony/twig-bridge": {
+        "version": "5.4.x-dev"
+    },
+    "symfony/twig-bundle": {
+        "version": "5.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.3",
+            "ref": "b416645602504d22d15912e0918001e6d71bb9fa"
+        },
+        "files": [
+            "config/packages/twig.yaml",
+            "templates/base.html.twig"
+        ]
+    },
     "symfony/ux-chartjs": {
         "version": "v1.3.0"
     },
@@ -202,5 +221,8 @@
     },
     "symfony/yaml": {
         "version": "5.4.x-dev"
+    },
+    "twig/twig": {
+        "version": "v3.3.2"
     }
 }
